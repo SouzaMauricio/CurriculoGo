@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0C42043A-5DE8-4AD5-830D-6D50EF1DAA5F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>CurriculoGo</RootNamespace>
+    <AssemblyName>CurriculoGo</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icons8-currículo-96.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PdfSharp, Version=1.32.3057.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
+      <HintPath>..\packages\PDFsharp.1.32.3057.0\lib\net20\PdfSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="PdfSharp.Charting, Version=1.32.3057.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
+      <HintPath>..\packages\PDFsharp.1.32.3057.0\lib\net20\PdfSharp.Charting.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CriarEditarCurriculo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CriarEditarCurriculo.Designer.cs">
+      <DependentUpon>CriarEditarCurriculo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Curriculo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Curriculo.Designer.cs">
+      <DependentUpon>Curriculo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DadosCr\DadosAcademicosExtra.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DadosCr\DadosAcademicosExtra.Designer.cs">
+      <DependentUpon>DadosAcademicosExtra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DadosCr\DadosPessoais.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DadosCr\DadosPessoais.Designer.cs">
+      <DependentUpon>DadosPessoais.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DadosCr\DadosProfissionais.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DadosCr\DadosProfissionais.Designer.cs">
+      <DependentUpon>DadosProfissionais.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="CriarEditarCurriculo.resx">
+      <DependentUpon>CriarEditarCurriculo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Curriculo.resx">
+      <DependentUpon>Curriculo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DadosCr\DadosAcademicosExtra.resx">
+      <DependentUpon>DadosAcademicosExtra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DadosCr\DadosPessoais.resx">
+      <DependentUpon>DadosPessoais.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DadosCr\DadosProfissionais.resx">
+      <DependentUpon>DadosProfissionais.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icons8-currículo-96.ico" />
+    <Content Include="Imagens\icons8-currículo-96.ico" />
+    <Content Include="Imagens\icons8-informações-filled-15.png" />
+    <Content Include="Imagens\imgUsers.png" />
+    <Content Include="Imagens\m11.png" />
+    <Content Include="Imagens\m2.png" />
+    <Content Include="Imagens\m3.png" />
+    <Content Include="Imagens\user1.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
