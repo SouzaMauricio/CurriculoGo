@@ -24,10 +24,21 @@ Com as informações preenchidas o usuário pode exportar seu currículo para PD
 
 <h4>Formulário Dados Pessoais</h4>
 
+![dadospessoais](https://user-images.githubusercontent.com/43114897/45267403-06d0f980-b442-11e8-831c-b7f03d0e73df.PNG)
+
 <h4>Formulário Dados Acadêmicos</h4>
+
+![dadosacad](https://user-images.githubusercontent.com/43114897/45267402-06d0f980-b442-11e8-9985-e1462bc9d3aa.PNG)
 
 <h4>Formulário Dados Profissionais</h4>
 
+![dadosprof](https://user-images.githubusercontent.com/43114897/45267404-06d0f980-b442-11e8-986c-6b7121141a3b.PNG)
+
 <h4>Seleção de Modelo de Currículo</h4>
 
+![previsualizar](https://user-images.githubusercontent.com/43114897/45267406-07699000-b442-11e8-9a44-ef4d989076ce.PNG)
+
 <h4>Visualização do Currículo</h4>
+
+![curriculo](https://user-images.githubusercontent.com/43114897/45267401-06d0f980-b442-11e8-9acc-96b24e47863f.PNG)
+
