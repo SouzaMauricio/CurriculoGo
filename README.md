@@ -10,5 +10,5 @@ Com as informações preenchidas o usuário pode exportar seu currículo para PD
 <p>&nbsp&nbsp&nbsp&nbspIDE: Visual Studio 2017 </p>
 
 <h3>Observações:</h3>
-<p>&nbsp&nbsp&nbsp&nbsp-Todos os campos onde a descrição se inicia com "*" são obrigatório</p>
-<p>&nbsp&nbsp&nbsp&nbsp-No campo "Tempo que atuou" pode-se colocar o período em meses que atuou na empresa ou colocar "Atual", dessa frma o sistema já entende que este é seu emprego atual.</p>
+<p>&nbsp&nbsp&nbsp&nbsp-Todos os campos onde a descrição se inicia com "*" são obrigatório;</p>
+<p>&nbsp&nbsp&nbsp&nbsp-No campo "Tempo que atuou" pode-se colocar o período em meses que atuou na empresa ou colocar "Atual", dessa forma o sistema já entende que este é seu emprego atual.</p>
