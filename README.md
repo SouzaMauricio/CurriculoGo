@@ -40,5 +40,5 @@ Com as informações preenchidas o usuário pode exportar seu currículo para PD
 
 <h4>Visualização do Currículo</h4>
 
-![curriculo](https://user-images.githubusercontent.com/43114897/45267401-06d0f980-b442-11e8-9acc-96b24e47863f.PNG)
+![curriculo](https://user-images.githubusercontent.com/43114897/45267447-d3429f00-b442-11e8-9ce5-325606e5e91a.PNG)
 
