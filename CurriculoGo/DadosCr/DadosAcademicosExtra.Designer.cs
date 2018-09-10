@@ -142,6 +142,7 @@
             // 
             // cbo_NivelIdioma2
             // 
+            this.cbo_NivelIdioma2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.cbo_NivelIdioma2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbo_NivelIdioma2.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbo_NivelIdioma2.FormattingEnabled = true;
@@ -176,6 +177,7 @@
             // 
             // cbo_NivelIdioma1
             // 
+            this.cbo_NivelIdioma1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.cbo_NivelIdioma1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbo_NivelIdioma1.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbo_NivelIdioma1.FormattingEnabled = true;
@@ -221,6 +223,7 @@
             // 
             // cbo_StatusCurso2
             // 
+            this.cbo_StatusCurso2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.cbo_StatusCurso2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbo_StatusCurso2.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbo_StatusCurso2.FormattingEnabled = true;
@@ -265,6 +268,7 @@
             // 
             // cbo_StatusCurso1
             // 
+            this.cbo_StatusCurso1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.cbo_StatusCurso1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbo_StatusCurso1.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbo_StatusCurso1.FormattingEnabled = true;
@@ -320,6 +324,7 @@
             // 
             // cbo_StatusEscolaridade
             // 
+            this.cbo_StatusEscolaridade.Cursor = System.Windows.Forms.Cursors.Hand;
             this.cbo_StatusEscolaridade.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbo_StatusEscolaridade.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbo_StatusEscolaridade.FormattingEnabled = true;
@@ -365,6 +370,7 @@
             // 
             // cbo_Escolaridade
             // 
+            this.cbo_Escolaridade.Cursor = System.Windows.Forms.Cursors.Hand;
             this.cbo_Escolaridade.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbo_Escolaridade.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbo_Escolaridade.FormattingEnabled = true;
@@ -451,7 +457,7 @@
             this.btnLimpar.UseVisualStyleBackColor = false;
             this.btnLimpar.Click += new System.EventHandler(this.btnLimpar_Click);
             // 
-            // DadosAcademicosProfissionais
+            // DadosAcademicosExtra
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -491,7 +497,7 @@
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(4);
-            this.Name = "DadosAcademicosProfissionais";
+            this.Name = "DadosAcademicosExtra";
             this.Size = new System.Drawing.Size(800, 500);
             this.ResumeLayout(false);
             this.PerformLayout();
