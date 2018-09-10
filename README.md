@@ -7,11 +7,12 @@ Com as informações preenchidas o usuário pode exportar seu currículo para PD
 
 <h3>Informações Técnicas:</h3>
 <p>&nbsp&nbsp&nbsp&nbspLinguagem: C# <p>
-<p>&nbsp&nbsp&nbsp&nbspIDE: Visual Studio 2017 </p>
+<p>&nbsp&nbsp&nbsp&nbspIDE utilizada: Visual Studio 2017 </p>
 
 <h3>Observações:</h3>
 <p>&nbsp&nbsp&nbsp&nbsp-Todos os campos onde a descrição se inicia com "*" são obrigatórios;</p>
 <p>&nbsp&nbsp&nbsp&nbsp-No campo "Tempo que atuou" pode-se colocar o período em meses que atuou na empresa ou colocar "Atual", dessa forma o sistema já entende que este é seu emprego atual.</p>
+<p>&nbsp&nbsp&nbsp&nbsp-O currículo em pdf fica salvo automaticamente no diretório "CurriculoGo\CurriculoGo\bin\Debug".</p>
 <h3>Telas:</h3>
 
 <h4>Tela Inicial</h4>
