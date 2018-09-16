@@ -30,10 +30,10 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CriarEditarCurriculo));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.pnlDados = new System.Windows.Forms.Panel();
             this.btnSair = new System.Windows.Forms.Button();
             this.btnMinimizar = new System.Windows.Forms.Button();
             this.btnFechar = new System.Windows.Forms.Button();
+            this.pnlDados = new System.Windows.Forms.Panel();
             this.dadosPessoais1 = new CurriculoGo.DadosCr.DadosPessoais();
             this.dadosProfissionais1 = new CurriculoGo.DadosCr.DadosProfissionais();
             this.dadosAcademicosProfissionais1 = new CurriculoGo.DadosCr.DadosAcademicosExtra();
@@ -51,17 +51,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(800, 40);
             this.panel1.TabIndex = 0;
-            // 
-            // pnlDados
-            // 
-            this.pnlDados.Controls.Add(this.dadosPessoais1);
-            this.pnlDados.Controls.Add(this.dadosProfissionais1);
-            this.pnlDados.Controls.Add(this.dadosAcademicosProfissionais1);
-            this.pnlDados.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnlDados.Location = new System.Drawing.Point(0, 40);
-            this.pnlDados.Name = "pnlDados";
-            this.pnlDados.Size = new System.Drawing.Size(800, 500);
-            this.pnlDados.TabIndex = 1;
             // 
             // btnSair
             // 
@@ -104,6 +93,17 @@
             this.btnFechar.TabIndex = 6;
             this.btnFechar.UseVisualStyleBackColor = true;
             this.btnFechar.Click += new System.EventHandler(this.btnFechar_Click);
+            // 
+            // pnlDados
+            // 
+            this.pnlDados.Controls.Add(this.dadosPessoais1);
+            this.pnlDados.Controls.Add(this.dadosProfissionais1);
+            this.pnlDados.Controls.Add(this.dadosAcademicosProfissionais1);
+            this.pnlDados.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pnlDados.Location = new System.Drawing.Point(0, 40);
+            this.pnlDados.Name = "pnlDados";
+            this.pnlDados.Size = new System.Drawing.Size(800, 500);
+            this.pnlDados.TabIndex = 1;
             // 
             // dadosPessoais1
             // 
